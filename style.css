@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(
+        135deg,
+        #16222A 0%,
+        #3A6073 50%,
+        #5B4B6E 100%
+    );
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: white;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects img {
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.nav-button {
+    padding: 12px 24px;
+    background-color: #322335;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-button:hover {
+    background-color: goldenrod;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #322335;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: goldenrod;   
+    color: black;          
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;   
+    align-items: flex-start;   
+    gap: 60px;                 
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    background-color: #1c2841;
+    border: 4px solid white;
+    border-radius: 12px;
+
+    width: 500px;
+    height: 600px;
+    padding: 20px 12px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    background-color: #1c2841;
+    border: 4px solid white;
+    border-radius: 12px;
+
+    width: 300px;
+    height: 200px;
+    padding: 20px 12px;
+}
+
+.table-box {
+    background-color: #1c2841;
+    border: 4px solid white;
+    border-radius: 12px;
+    text-align: center;
+
+    width: 500px;
+    height: 600px;
+    padding: 20px 12px;
+    color: white;
+}
+
+.table-box table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.table-box th {
+    color: black;
+    border: 1px solid white;
+    background: goldenrod;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-box td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
